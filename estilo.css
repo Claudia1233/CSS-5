@@ -42,3 +42,11 @@ td {
 tr:nth-child(even) {
   background-color: #f2f2f2;
 }
+/* Tamaño uniforme de imágenes */
+table img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Para que no se deformen demasiado */
+  border-radius: 8px; /* Bordes redondeados opcionales */
+}
+
