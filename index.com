@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Práctico 1-2-3-4-5 – Teoría del Color</title>
+
+<!-- Estilos internos -->
+<style>
+  h2 {
+    margin-top: 20px;
+    color: darkgreen;
+  }
+  p {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: black;
+    text-align: justify;
+  }
+</style>
+
+<!-- Estilos externos -->
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <!-- Estilos en línea -->
+  <h1 id="tituloPrincipal" style="background-color: lightgray; text-align: center;">
+    Teoría del Color
+  </h1>
+
+  <h2 style="color: green; background-color: beige; text-align: left;">Colores Primarios</h2>
+  <p>
+    En la teoría del color, los <span class="destacado">colores primarios</span> son la base.  
+    En el modelo aditivo (RGB) son <strong>rojo, verde y azul</strong>.  
+    En el modelo sustractivo (CMY) son <strong>cian, magenta y amarillo</strong>.
+  </p>
+
+  <h2 style="color: maroon; background-color: lightpink; text-align: right;">Colores Secundarios</h2>
+  <p class="destacado">
+    Los secundarios se obtienen al mezclar dos primarios:  
+    rojo + amarillo = naranja,  
+    azul + amarillo = verde,  
+    rojo + azul = violeta.
+  </p>
+
+  <h2>Colores Complementarios</h2>
+  <p>
+    Los <span class="destacado">colores complementarios</span> se ubican en extremos opuestos del círculo cromático.  
+    Ejemplos: azul y naranja, rojo y verde, amarillo y violeta.  
+    Producen fuerte contraste y dinamismo en el diseño.
+  </p>
+
+  <h2>Colores Cálidos y Fríos</h2>
+  <p>
+    Los colores cálidos (rojo, naranja, amarillo) transmiten <span class="destacado">energía y cercanía</span>.  
+    Los fríos (azul, verde, violeta) evocan <span class="destacado">tranquilidad y frescura</span>.  
+    Saber combinarlos ayuda a transmitir emociones en un diseño.
+  </p>
+
+  <h2>Tabla con Colores</h2>
+  <p>En la siguiente tabla se muestran ejemplos gráficos de colores que vimos en la teoría:</p>
+  <table>
+    <tr>
+      <td><img src="colores/rojo.gif" alt="Rojo"></td>
+      <td><img src="colores/verde.png" alt="Verde"></td>
+      <td><a href="https://www.google.com"><img src="colores/azul.jpg" alt="Azul"></a></td>
+    </tr>
+    <tr>
+      <td><img src="colores/amarillo.png" alt="Amarillo"></td>
+      <td><img src="colores/morado.gif" alt="Morado"></td>
+      <td><img src="colores/naranja.jpg" alt="Naranja"></td>
+    </tr>
+  </table>
+</body>
+</html>
